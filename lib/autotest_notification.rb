@@ -1,4 +1,9 @@
 require "autotest"
+require "autotest/rails/discover"
+require "autotest/rails/fixtures"
+require "autotest/rails/migrate"
+require "autotest/rails/rails"
+
 $:.unshift(File.dirname(__FILE__))
 
 module AutotestNotification
